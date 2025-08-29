@@ -44,6 +44,7 @@ const App = (): React.JSX.Element => {
     adjustThirdPartySharing.addGranularOption("google_dma", "eea", "1");                // user is in Europe
     adjustThirdPartySharing.addGranularOption("google_dma", "ad_user_data", "1");       // user consented to Google Ads
     adjustThirdPartySharing.addGranularOption("google_dma", "ad_personalization", "1"); // user consented to Google Ads
+    adjustThirdPartySharing.addGranularOption("google_dma", "ad_storage", "1");         // user consented to Google Ads
     adjustThirdPartySharing.addGranularOption("google_dma", "npa", "1");                // user consented to Google Ads
     Adjust.trackThirdPartySharing(adjustThirdPartySharing);
 
